@@ -3,7 +3,7 @@
 A course-style learning site built around *Fundamentals of Physics* (12th ed.) and the 2024 AP Physics C: Mechanics equation sheet.
 
 ## Run it
-Double-click **Start Physics Site.command** (or run `python3 -m http.server 8765 --directory site` and open http://localhost:8765).
+Double-click **Start Physics Site.command** (or run `python3 -m http.server 8765 --directory docs` and open http://localhost:8765).
 It has to be served this way — YouTube embeds won't play if `index.html` is opened directly as a file.
 
 ## What's inside
@@ -16,7 +16,7 @@ It has to be served this way — YouTube embeds won't play if `index.html` is op
 - **Equation sheet:** the 2024 table of information, grouped by topic and linked to chapters.
 
 ## Files
-- `site/index.html` — entry page
-- `site/js/content/chXX.js` — articles + problem generators per chapter
-- `site/js/models-*.js` — the interactive models
-- `site/js/videos.js`, `site/js/photos.js` — the video and photo lists
+- `docs/index.html` — entry page
+- `docs/js/content/chXX.js` — articles + problem generators per chapter
+- `docs/js/models-*.js` — the interactive models
+- `docs/js/videos.js`, `docs/js/photos.js` — the video and photo lists
